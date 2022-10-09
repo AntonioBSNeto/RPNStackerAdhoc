@@ -4,11 +4,6 @@ import java.util.Scanner;
 import java.util.Stack;
 
 public class Rpn {
-
-  public static boolean t(String t) {
-    return t.matches("[-+/*]");
-  }
-
   public static void main(String[] args) {
 
     File inputFile = new File("Calc1.stk");
